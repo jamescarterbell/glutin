@@ -1,5 +1,5 @@
 [package]
-name = "cart-tmp-glutin"
+name = "glutin"
 version = "0.24.1"
 authors = ["The glutin contributors", "Pierre Krieger <pierre.krieger1708@gmail.com>"]
 description = "Cross-platform OpenGL context provider."
