@@ -189,6 +189,13 @@ impl<T: ContextCurrentState, W> ContextWrapper<T, W> {
         &self.context
     }
 
+    /// Take the inner GL [`Context`].
+    ///
+    /// [`Context`]: struct.Context.html
+    pub fn to_context(self) -> Context<T> {
+        self.context
+    }
+
     /// Sets this context as the current context. The previously current context
     /// (if any) is no longer current.
     ///
